@@ -1,0 +1,10 @@
+! pip install kaggle
+! mkdir ~/.kaggle
+! cp kaggle.json ~/.kaggle/
+! chmod 600 ~/.kaggle/kaggle.json
+
+#this is for the download the dataset which we want to download
+! kaggle datasets download "tongpython/cat-and-dog"
+
+#this is the for the unzip the data which is downloaded by us
+! unzip /content/cat-and-dog.zip
